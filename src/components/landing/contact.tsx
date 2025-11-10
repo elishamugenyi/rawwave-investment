@@ -68,7 +68,7 @@ export function Contact() {
                 <div className="space-y-4">
                     <div className="flex items-center gap-4">
                         <Phone className="w-5 h-5 text-accent"/>
-                        <span>+1 (555) 123-4567</span>
+                        <span>+256 (781) 695-157</span>
                     </div>
                      <div className="flex items-center gap-4">
                         <Mail className="w-5 h-5 text-accent"/>
@@ -86,7 +86,7 @@ export function Contact() {
                         <FormItem>
                         <FormLabel>Full Name</FormLabel>
                         <FormControl>
-                            <Input placeholder="John Doe" {...field} />
+                            <Input placeholder="Your Full Name" {...field} />
                         </FormControl>
                         <FormMessage />
                         </FormItem>
