@@ -5,6 +5,12 @@
       "description": "A diverse team of marketing experts collaborating around a table in a modern, bright office space.",
       "imageUrl": "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjB0ZWFtfGVufDB8fHx8MTc2MjY5MjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "marketing team"
+    },
+    {
+      "id": "founder",
+      "description": "Portrait of the founder, a confident and approachable person in a professional setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1750926013613-13c1796133e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmb3VuZGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyOTk0NTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "founder portrait"
     }
   ]
 }
