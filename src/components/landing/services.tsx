@@ -4,13 +4,13 @@ import { Megaphone, Users, UserCheck, CalendarDays } from 'lucide-react';
 const services = [
   {
     icon: <Megaphone className="h-10 w-10 text-accent" />,
-    title: 'Digital Marketing',
-    description: 'Amplify your reach with data-driven strategies, from SEO and PPC to content and social media marketing.',
+    title: 'Campaign Strategy & Management',
+    description: 'Amplify your reach with data-driven strategies, from SEO and PPC to content and social media marketing. We ensure End-to-end planning and execution of creative marketing campaigns.',
   },
   {
     icon: <Users className="h-10 w-10 text-accent" />,
-    title: 'Influencer Management',
-    description: 'Connect with authentic voices. We manage influencer campaigns that build trust and drive engagement.',
+    title: 'Influencer Marketing & Talent Coordination',
+    description: 'Connect with authentic voices. Influencer identification, management, and performance tracking. Influencer identification, management, and performance tracking.',
   },
   {
     icon: <UserCheck className="h-10 w-10 text-accent" />,

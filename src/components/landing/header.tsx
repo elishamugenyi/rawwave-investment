@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils';
 const navItems = [
   { label: 'Services', href: '#services' },
   { label: 'Why Us', href: '#why-us' },
+  { label: 'Gallery', href: '#gallery' },
   { label: 'Collaborate', href: '#collaborate' },
   { label: 'Contact', href: '#contact' },
 ];

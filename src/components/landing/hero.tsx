@@ -11,9 +11,9 @@ export function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-3xl mx-auto opacity-0 motion-safe:animate-fade-in-up">
           <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-primary">
-            Elevating Brands,
+            Making Brands,
             <br />
-            One Verse at a Time.
+            Move.
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-lg text-foreground/80 md:text-xl">
             Rawwave is your strategic partner in navigating the dynamic world of digital marketing. We craft bespoke solutions that amplify your voice and connect you with your audience.

@@ -2,6 +2,7 @@ import { Header } from '@/components/landing/header';
 import { Hero } from '@/components/landing/hero';
 import { Services } from '@/components/landing/services';
 import { WhyChooseUs } from '@/components/landing/why-choose-us';
+import { Gallery } from '@/components/landing/gallery';
 import { Founder } from '@/components/landing/founder';
 import { Collaboration } from '@/components/landing/collaboration';
 import { Contact } from '@/components/landing/contact';
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Services />
         <WhyChooseUs />
+        <Gallery />
         <Founder />
         <Collaboration />
         <Contact />
