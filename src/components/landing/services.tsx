@@ -18,11 +18,6 @@ const services = [
     description: 'Recruitment, training, and coordination of promotional teams and entertainers.',
   },
   {
-    icon: <CalendarDays className="h-10 w-10 text-accent" />,
-    title: 'Event & Artist Management',
-    description: 'From concept to execution, we manage unforgettable events and nurture artistic careers to stardom.',
-  },
-  {
     icon: <User2 className="h-10 w-10 text-accent" />,
     title: 'Brand Positioning & Public Relations',
     description: 'Strategic communication, storytelling, and visibility campaigns.'

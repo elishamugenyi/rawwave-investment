@@ -16,7 +16,10 @@ import {
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Building } from 'lucide-react';
+import Link from 'next/link';
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -70,9 +73,23 @@ export function Contact() {
                         <Phone className="w-5 h-5 text-accent"/>
                         <span>+256 (781) 695-157</span>
                     </div>
+                    <div className="flex items-center gap-4">
+                      <Link
+                          href="https://wa.me/256781695157?text=Hello%20Rawwave Investment!%20I'm%20interested%20in%20your%20services."
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="whatsapp-float, text-green hover:text-green-500"
+                        >
+                          <FaWhatsapp size={36} />
+                      </Link>
+                    </div>
                      <div className="flex items-center gap-4">
                         <Mail className="w-5 h-5 text-accent"/>
-                        <span>hello@rawwave.agency</span>
+                        <span>rawwaveinvestments@gmail.com</span>
+                    </div>
+                    <div className="flex items-center gap-4">
+                        <Building className="w-5 h-5 text-accent"/>
+                        <span>Yusuf Arcade, Kisaasi, Kampala, Uganda</span>
                     </div>
                 </div>
             </div>
