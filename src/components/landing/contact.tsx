@@ -72,7 +72,7 @@ export function Contact() {
                     </div>
                      <div className="flex items-center gap-4">
                         <Mail className="w-5 h-5 text-accent"/>
-                        <span>hello@adverse.agency</span>
+                        <span>hello@rawwave.agency</span>
                     </div>
                 </div>
             </div>

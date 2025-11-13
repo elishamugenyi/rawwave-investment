@@ -3,7 +3,7 @@ import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'AdVerse Agency',
+  title: 'Rawwave',
   description: 'Elevating Brands with Cutting-Edge Digital Marketing and Management',
 };
 

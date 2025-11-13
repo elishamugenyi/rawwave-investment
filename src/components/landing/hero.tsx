@@ -16,7 +16,7 @@ export function Hero() {
             One Verse at a Time.
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-lg text-foreground/80 md:text-xl">
-            AdVerse is your strategic partner in navigating the dynamic world of digital marketing. We craft bespoke solutions that amplify your voice and connect you with your audience.
+            Rawwave is your strategic partner in navigating the dynamic world of digital marketing. We craft bespoke solutions that amplify your voice and connect you with your audience.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" asChild>

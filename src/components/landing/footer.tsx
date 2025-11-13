@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <Logo />
           <p className="text-sm text-muted-foreground order-last md:order-none">
-            &copy; {new Date().getFullYear()} AdVerse Agency. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Rawwave. All Rights Reserved.
           </p>
           <div className="flex items-center space-x-4">
             <Link href="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary">

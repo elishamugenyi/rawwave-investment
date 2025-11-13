@@ -10,9 +10,9 @@ type LogoProps = {
 const Logo: FC<LogoProps> = ({ className }) => {
   return (
     <Link href="/" className={cn("flex items-center gap-2", className)}>
-      <Image src="/logo.png" alt="AdVerse Logo" width={32} height={32} />
+      <Image src="/rawwavw-logo.jpg" alt="Rawwave Logo" width={32} height={32} />
       <span className="font-headline text-2xl font-bold text-primary">
-        AdVerse
+        Rawwave
       </span>
     </Link>
   );

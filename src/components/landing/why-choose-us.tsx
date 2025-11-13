@@ -18,7 +18,7 @@ export function WhyChooseUs() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="opacity-0 motion-safe:animate-fade-in-up">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Why Partner with AdVerse?
+              Why Partner with Rawwave?
             </h2>
             <p className="mt-4 text-foreground/80 md:text-xl">
               We're more than just an agency; we're your growth partners. Our mission is to deliver results that matter and relationships that last.
