@@ -16,7 +16,7 @@ export function Hero() {
             Move.
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-lg text-foreground/80 md:text-xl">
-            Rawwave is your strategic partner in navigating the dynamic world of digital marketing. We craft bespoke solutions that amplify your voice and connect you with your audience.
+            Rawwave's mission is to drive authentic, impactful, and innovative marketing solutions that connect brands, people, and culture. We strive to bridge creativity with strategy transforming ideas into meaningful results through events, influencer marketing, media, and brand experiences.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" asChild>

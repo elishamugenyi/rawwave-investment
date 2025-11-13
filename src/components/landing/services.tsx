@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Megaphone, Users, UserCheck, CalendarDays } from 'lucide-react';
+import { Megaphone, Users, UserCheck, CalendarDays, User2, Clapperboard, Briefcase, PartyPopper } from 'lucide-react';
 
 const services = [
   {
@@ -14,13 +14,33 @@ const services = [
   },
   {
     icon: <UserCheck className="h-10 w-10 text-accent" />,
-    title: 'Ushers & Staffing',
-    description: 'Ensure your events run smoothly with our professional, well-trained ushers and event staff.',
+    title: 'Ushers, Models & DJ Management',
+    description: 'Recruitment, training, and coordination of promotional teams and entertainers.',
   },
   {
     icon: <CalendarDays className="h-10 w-10 text-accent" />,
     title: 'Event & Artist Management',
     description: 'From concept to execution, we manage unforgettable events and nurture artistic careers to stardom.',
+  },
+  {
+    icon: <User2 className="h-10 w-10 text-accent" />,
+    title: 'Brand Positioning & Public Relations',
+    description: 'Strategic communication, storytelling, and visibility campaigns.'
+  },
+  {
+    icon: <Clapperboard className="h-10 w-10 text-accent" />,
+    title: 'Media & Advertising Services',
+    description: 'Creative content production, brand partnerships, and media buying.',
+  },
+  {
+    icon: <Briefcase className="h-10 w-10 text-accent" />,
+    title: 'Corporate Marketing Solutions',
+    description: 'Strategic branding, sponsorship proposals, and business-to-business promotions.',
+  },
+  {
+    icon: <PartyPopper className="h-10 w-10 text-accent" />,
+    title: 'Event Management & Production',
+    description: 'Corporate events, product launches, concerts, and experiential activations.',
   },
 ];
 
@@ -44,7 +64,7 @@ export function Services() {
                   <div className="bg-accent/10 p-4 rounded-full">
                     {service.icon}
                   </div>
-                  <CardTitle className="mt-4">{service.title}</CardTitle>
+                  <CardTitle className="mt-4 text-lg">{service.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">{service.description}</p>
